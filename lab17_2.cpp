@@ -4,7 +4,7 @@ using namespace std;
 void myString(char *&p,int N){ //pass by reference *&
 	p = new char[N];    
 	for(int i = 0; i < N;i++) p[i] = 'A'+i;
-	N = 0;  //N = 0 เพื่อที่ตอนที่ N = 26 จะไม่มีตัวเกินมานอกจาก A-Z
+	N = 0;  //N = 0 เพื่อที่ตอนที่ N = 26 จะไม่มีตัวเกินมานอกจาก A-Z  null
 }
 
 int main(){
